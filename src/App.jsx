@@ -4,7 +4,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 const App = () => {
   return (
     <>
-      //using bootstrap for css in this line
+      //using bootstrap for css in this line 
       <h1 className="text-center mt-5">Tarun</h1>
       <button>hello world</button>
       <div class="input-group mb-3">
