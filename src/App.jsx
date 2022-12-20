@@ -4,8 +4,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 const App = () => {
   return (
     <>
-      <h1>Tarun</h1>
-      <button className="btn btn-success">hello world</button>
+      //using bootstrap for css in this line
+      <h1 className="text-center mt-5">Tarun</h1>
+      <button>hello world</button>
       <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1">
           @
@@ -18,7 +19,6 @@ const App = () => {
           aria-describedby="basic-addon1"
         />
       </div>
-
       <div class="input-group mb-3">
         <input
           type="text"
@@ -31,7 +31,6 @@ const App = () => {
           @example.com
         </span>
       </div>
-
       <label for="basic-url" class="form-label">
         Your vanity URL
       </label>
@@ -46,7 +45,6 @@ const App = () => {
           aria-describedby="basic-addon3"
         />
       </div>
-
       <div class="input-group mb-3">
         <span class="input-group-text">$</span>
         <input
@@ -56,7 +54,6 @@ const App = () => {
         />
         <span class="input-group-text">.00</span>
       </div>
-
       <div class="input-group mb-3">
         <input
           type="text"
@@ -72,7 +69,6 @@ const App = () => {
           aria-label="Server"
         />
       </div>
-
       <div class="input-group">
         <span class="input-group-text">With textarea</span>
         <textarea class="form-control" aria-label="With textarea"></textarea>
@@ -89,3 +85,4 @@ export default App;
 // import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 //                      or
 // import "copy file path"
+
